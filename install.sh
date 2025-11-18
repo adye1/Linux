@@ -153,7 +153,7 @@ pacman -S --noconfirm gnome gnome-extra gdm
 pacman -S --noconfirm bluez bluez-utils
 
 # Install PipeWire
-pacman -S --noconfirm pipewire pipewire-alsa pipewire-pulse pipewire-jack \
+# pacman -S --noconfirm pipewire pipewire-alsa pipewire-pulse pipewire-jack \
     wireplumber gst-plugin-pipewire
 
 # Install additional utilities
@@ -204,4 +204,4 @@ echo "After reboot:"
 echo "- Login with your user account"
 echo "- GNOME should start automatically"
 echo "- Bluetooth: use Settings > Bluetooth"
-echo "- Audio managed by PipeWire"
+# echo "- Audio managed by PipeWire"
