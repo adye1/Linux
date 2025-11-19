@@ -15,7 +15,7 @@ DISK2="/dev/sdb"
 DISK3="/dev/sdc"
 DISK4="/dev/sdd"
 HOSTNAME="z840-workstation"
-USERNAME="adam"
+USERNAME="user"
 TIMEZONE="America/New_York"
 LOCALE="en_US.UTF-8"
 
@@ -157,7 +157,7 @@ pacman -S --noconfirm bluez bluez-utils
     wireplumber gst-plugin-pipewire
 
 # Install additional utilities
-pacman -S --noconfirm firefox chromium htop btop neofetch \
+pacman -S --noconfirm firefox chromium htop btop \
     noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation
 
 # Enable services
@@ -205,3 +205,4 @@ echo "- Login with your user account"
 echo "- GNOME should start automatically"
 echo "- Bluetooth: use Settings > Bluetooth"
 # echo "- Audio managed by PipeWire"
+
